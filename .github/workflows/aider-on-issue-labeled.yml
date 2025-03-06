@@ -3,6 +3,11 @@ on:
   issues:
     types: [labeled]
 
+permissions:
+  contents: write
+  issues: read
+  pull-requests: write
+
 jobs:
   generate:
     uses: mirrajabi/aider-github-workflows/.github/workflows/aider-issue-to-pr.yml@main
