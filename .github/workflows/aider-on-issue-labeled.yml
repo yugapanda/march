@@ -18,4 +18,5 @@ jobs:
       base-branch: ${{ github.event.repository.default_branch }}
     secrets: 
       anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+      model: anthropic/claude-3-7-sonnet-20250219
 
